@@ -1,0 +1,53 @@
+body {
+  background-color: aqua;
+  background-image: url("img/burger background.jpg");
+}
+.container {
+  margin-left: 230px;
+  margin-top: 30px;
+  background-color: #e5e3e4;
+  padding: 4rem 1rem 4rem 1rem;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+  width: 800px;
+}
+.signin-text {
+  font-style: normal;
+  font-weight: 600 !important;
+}
+.form-control {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-color: darkgray;
+  border-style: solid !important;
+  border-width: 0 0 1px 0 !important;
+  padding: 5px !important;
+  color: blue;
+  height: auto;
+  border-radius: 0;
+  background-color: #ffffff;
+  background-clip: padding-box;
+}
+.form-control:focus {
+  color: black;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: none;
+}
+.btn-primary {
+  margin: 10px;
+}
+.edit {
+  text-shadow: 2px 2px 5px #e56c91;
+  color: #e21a4e;
+}
+.person {
+  color: #8e888a;
+}
+img {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
